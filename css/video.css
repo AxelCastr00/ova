@@ -1,0 +1,40 @@
+.delimitador {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#videoo {
+    width: 100%;
+    text-align: center;
+}
+
+video {
+    margin: 0 auto;
+    display: block;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #videoo {
+        width: 100%;
+        text-align: center;
+    }
+    video {
+        margin: 0 auto;
+        display: block;
+        width: 750px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 890px) {
+    #videoo {
+        width: 100%;
+        text-align: center;
+    }
+    video {
+        margin: 0 auto;
+        display: block;
+        width: 350px;
+    }
+}

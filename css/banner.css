@@ -1,0 +1,16 @@
+#icono {
+    display: none;
+    transition: all 1s ease;
+}
+
+@media (max-width: 500px) {
+    #texto {
+        display: none;
+    }
+    #logoMed {
+        display: none;
+    }
+    #icono {
+        display: block;
+    }
+}
